@@ -1,0 +1,7 @@
+/Users/robertdeskoski-switch/Projects/FictionBox/UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/robertdeskoski-switch/Projects/FictionBox/UITests/bin/Debug/FictionBox.UITests.dll.mdb
+/Users/robertdeskoski-switch/Projects/FictionBox/UITests/bin/Debug/FictionBox.UITests.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/UITests/obj/Debug/FictionBox.UITests.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/UITests/obj/Debug/FictionBox.UITests.dll.mdb
+/Users/robertdeskoski-switch/Projects/FictionBox/UITests/bin/Debug/nunit.framework.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/UITests/bin/Debug/Xamarin.UITest.dll

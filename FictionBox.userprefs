@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{6D1E08D0-D086-4CFE-A2E1-BB3EDA8AF4AE}|Default">
+  <MonoDevelop.Ide.ItemProperties.FictionBox.UI.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FictionBox/TemplateParser/TemplateParserFactory.cs">
+    <Files>
+      <File FileName="FictionBox/Services.cs" Line="1" Column="1" />
+      <File FileName="FictionBox/Services/ICreateDecks.cs" Line="1" Column="1" />
+      <File FileName="FictionBox/Services/CreateDecks.cs" Line="36" Column="25" />
+      <File FileName="FictionBox/Constants.cs" Line="10" Column="64" />
+      <File FileName="FictionBox/App.cs" Line="13" Column="29" />
+      <File FileName="FictionBox/ViewModels/DeckViewModel.cs" Line="16" Column="4" />
+      <File FileName="iOS/AppDelegate.cs" Line="26" Column="46" />
+      <File FileName="iOS/Setup.cs" Line="20" Column="2" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="iOS/Main.cs" Line="14" Column="4" />
+      <File FileName="iOS/ViewController.cs" Line="27" Column="5" />
+      <File FileName="iOS/packages.config" Line="1" Column="1" />
+      <File FileName="FictionBox/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="iOS/Views/DeckView.cs" Line="8" Column="1" />
+      <File FileName="iOS/DebigTrace.cs" Line="30" Column="3" />
+      <File FileName="FictionBox/Resources/Decks/setting_deck.json" Line="49" Column="8" />
+      <File FileName="FictionBox/Utilities/ResourceLoader.cs" Line="12" Column="16" />
+      <File FileName="FictionBox/Utilities/JsonLoader.cs" Line="13" Column="2" />
+      <File FileName="FictionBox/Resources/Decks/characters_deck.json" Line="49" Column="8" />
+      <File FileName="FictionBox/Models/DeckModel.cs" Line="25" Column="4" />
+      <File FileName="FictionBox/Models/IIotaModel.cs" Line="4" Column="29" />
+      <File FileName="FictionBox/Models/IDeckModel.cs" Line="4" Column="29" />
+      <File FileName="FictionBox/Models/IJotModel.cs" Line="4" Column="28" />
+      <File FileName="FictionBox/Models/IotaModel.cs" Line="6" Column="19" />
+      <File FileName="FictionBox/Models/JotModel.cs" Line="4" Column="33" />
+      <File FileName="FictionBox/Models/BaseCardModel.cs" Line="14" Column="2" />
+      <File FileName="FictionBox/Models/IBaseCardModel.cs" Line="4" Column="24" />
+      <File FileName="FictionBox/Json/JsonTemplate1.cs" Line="22" Column="17" />
+      <File FileName="FictionBox/TemplateParser/Template1ParserFactory.cs" Line="1" Column="1" />
+      <File FileName="FictionBox/TemplateParser/TemplateParserFactory.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FictionBox.UI.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.738EB5D2-3991-4B8B-B55E-E2FBB8A343D8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

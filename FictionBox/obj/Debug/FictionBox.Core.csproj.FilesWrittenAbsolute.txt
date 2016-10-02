@@ -1,0 +1,14 @@
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/obj/Debug/FictionBox.Resources.Decks.characters_deck.json
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/obj/Debug/FictionBox.Resources.Decks.setting_deck.json
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/bin/Debug/FictionBox.dll.mdb
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/bin/Debug/FictionBox.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/obj/Debug/FictionBox.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/obj/Debug/FictionBox.dll.mdb
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/bin/Debug/MvvmCross.Platform.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/bin/Debug/MvvmCross.Core.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/bin/Debug/MvvmCross.Binding.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/bin/Debug/MvvmCross.Localization.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/bin/Debug/PCLStorage.Abstractions.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/bin/Debug/PCLStorage.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/FictionBox/bin/Debug/Newtonsoft.Json.dll

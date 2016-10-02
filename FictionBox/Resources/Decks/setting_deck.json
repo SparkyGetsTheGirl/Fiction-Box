@@ -1,0 +1,64 @@
+[
+  {
+    "count": 1,
+    "title": "Setting - Sci-fi",
+    "contents": [
+      "subtitle | World",
+      "rule",
+      "property | Unique: | Choose a single world setting for each story.",
+      "rule",
+      "fill | 1",
+      "text | A. Connection of planets linked by series of gates: The Star Chain. Techno-religion provides a sense of purpose and driving force for expansion of chain, towards a higher understanding. [+<b>Revere the ancient/archaeological</b>, +<b>Techno-Knights</b>, +<b>Charitable to the poor/old/sick</b>, –<b>Violent expansion</b>]",
+      "text | B. Mini-galaxy residing inside a planet. Light-beings work to restore the outer, desolate world, destroyed by 4th-dimensional beings. [+<b>Bodyswappers</b>, +<b>Tenacious</b>, +<b>Female-dominant</b>, –<b>Hydrophobic</b>, –<b>Powerful but small</b>]",
+      "fill | 8"
+    ],
+    "tags": [
+      "setting",
+      "dark"
+    ],
+    "color": "GhostWhite",
+    "icon": "hills",
+    "title_size": ""
+  },
+  {
+    "count": 1,
+    "title": "Setting - Sci-fi",
+    "contents": [
+      "subtitle | World",
+      "rule",
+      "property | Unique: | Choose a single world setting for each story.",
+      "rule",
+      "fill | 1",
+      "text | A. 21st Century world on the cusp of curing all disease except infertility, incidences of which have increased. [+<b>Communist society</b>, +<b>Green energy</b>, –<b>Zero immigration</b>, –<b>Genetic engineering terrorism</b>]",
+      "text | B. Transcendent world: huge atmosphere, small landmass. Beings (human or otherwise) can fly and phase through objects. Live in massive connected anti-grav blimps in sky. [+<b>Sexless</b>, +<b>Barter society</b>, –<b>Pacifist</b>, –<b>Vulnerable to darker emotions (hatred)</b>]",
+      "fill | 8"
+    ],
+    "tags": [
+      "setting",
+      "neutral"
+    ],
+    "color": "LightCoral",
+    "icon": "hills"
+  },
+  {
+    "count": 1,
+    "title": "Setting - Sci-fi",
+    "contents": [
+      "subtitle | World",
+      "rule",
+      "property | Unique: | Choose a single world setting option for each story.",
+      "rule",
+      "fill | 1",
+      "text | A. Machine-based world where humans have evolved into unfeeling cyborgs; technology is used as a crutch to solve every societal issue. [+<b>Disease-less</b>, +<b>Control over subconscious</b>, +<b>No need for sleep</b>, –<b>Emotion-less</b>, –<b>Underground</b>]",
+      "text | B. Dark empire with psionic/mental gravitational powers that push worlds into their central system's sun to feed it's energy.[+<b>Great wealth</b>, +<b>Culture unifier</b>, –<b>Near-deathless</b>, –<b>Anti-humanoid</b>, –<b>Totalitarian</b>]",
+      "fill | 8"
+    ],
+    "tags": [
+      "setting",
+      "dark"
+    ],
+    "color": "black",
+    "icon": "hills",
+    "title_size": ""
+  }
+]

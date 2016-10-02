@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14BB25A4-5DE2-439B-B3BA-84748CA26666}</ProjectGuid>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UseMSBuildEngine>true</UseMSBuildEngine>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FictionBox</RootNamespace>
+    <AssemblyName>FictionBox</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ICreateDecks.cs" />
+    <Compile Include="Services\CreateDecks.cs" />
+    <Compile Include="Models\IJotModel.cs" />
+    <Compile Include="Models\JotModel.cs" />
+    <Compile Include="Models\IIotaModel.cs" />
+    <Compile Include="Models\IotaModel.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="ViewModels\DeckViewModel.cs" />
+    <Compile Include="Utilities\ResourceLoader.cs" />
+    <Compile Include="Utilities\JsonLoader.cs" />
+    <Compile Include="Models\DeckModel.cs" />
+    <Compile Include="Models\IDeckModel.cs" />
+    <Compile Include="Models\BaseCardModel.cs" />
+    <Compile Include="Models\IBaseCardModel.cs" />
+    <Compile Include="Json\JsonTemplate1.cs" />
+    <Compile Include="TemplateParser\TemplateParserFactory.cs" />
+    <Compile Include="TemplateParser\Template1ParserFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MvvmCross.Platform">
+      <HintPath>..\packages\MvvmCross.Platform.4.3.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross.Core">
+      <HintPath>..\packages\MvvmCross.Core.4.3.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross.Binding">
+      <HintPath>..\packages\MvvmCross.Binding.4.3.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Binding.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross.Localization">
+      <HintPath>..\packages\MvvmCross.Binding.4.3.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac\PCLStorage.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac\PCLStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Services\" />
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Resources\Decks\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Json\" />
+    <Folder Include="TemplateParser\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Decks\characters_deck.json" />
+    <EmbeddedResource Include="Resources\Decks\setting_deck.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+</Project>
