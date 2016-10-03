@@ -1,5 +1,3 @@
 packages/
-iOS/obj/
-iOS/bin/
-Droid/obj/
-Droid/bin/
+obj
+bin
