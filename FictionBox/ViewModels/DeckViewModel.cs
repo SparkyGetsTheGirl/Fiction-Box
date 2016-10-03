@@ -1,25 +1,13 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ﻿using System.Collections.Generic;
 
 using MvvmCross.Core.ViewModels;
 using FictionBox.Core.Services;
 using FictionBox.Core.Models;
-=======
-﻿using MvvmCross.Core.ViewModels;
-using FictionBox.Core.Services;
->>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
-=======
-﻿using MvvmCross.Core.ViewModels;
-using FictionBox.Core.Services;
->>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
 
 namespace FictionBox.Core.ViewModels
 {
 	public class DeckViewModel : MvxViewModel
 	{
-<<<<<<< HEAD
-<<<<<<< HEAD
 		private readonly ICreateDecks _createDecks;
 		private List<DeckModel> _fictionBoxDecks;
 
@@ -34,16 +22,6 @@ namespace FictionBox.Core.ViewModels
 				RaisePropertyChanged(() => FictionBoxDecks);
 			}
 		}
-=======
-		readonly ICreateDecks _createDecks;
-
-		public List<DeckModel> FictionBoxDecks { get; set; }
->>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
-=======
-		readonly ICreateDecks _createDecks;
-
-		public List<DeckModel> FictionBoxDecks { get; set; }
->>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
 
 		public DeckViewModel(ICreateDecks createDecks)
 		{

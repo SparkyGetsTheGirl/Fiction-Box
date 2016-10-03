@@ -35,6 +35,7 @@ namespace FictionBox.UI.iOS.Views
 			TableView.EstimatedRowHeight = 180.0f;
 			TableView.BackgroundColor = UIColor.Brown;
 			TableView.SetEditing(false, false);
+			TableView.BackgroundColor = UIColor.FromPatternImage(UIImage.FromFile("visit-twin-peaks-prints.jpg"));
 
 			TableView.SeparatorStyle = UITableViewCellSeparatorStyle.None;
 
