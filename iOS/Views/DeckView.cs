@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Collections.Generic;
 using FictionBox.Core.ViewModels;
 using FictionBox.UI.iOS.Views;
@@ -32,6 +33,8 @@ namespace FictionBox.UI.iOS.Views
 	}
 }
 =======
+=======
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
 ﻿using MvvmCross.Binding.BindingContext;
 using MvvmCross.Binding.iOS.Views;
 using MvvmCross.iOS.Views;
@@ -106,4 +109,7 @@ namespace FictionBox.UI.iOS.Views
 		}*/
 	}
 }
+<<<<<<< HEAD
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
+=======
 >>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833

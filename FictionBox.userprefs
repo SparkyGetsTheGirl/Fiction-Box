@@ -1,6 +1,7 @@
 ﻿<Properties StartupConfiguration="{6D1E08D0-D086-4CFE-A2E1-BB3EDA8AF4AE}|Default">
   <MonoDevelop.Ide.ItemProperties.FictionBox.UI.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 <<<<<<< HEAD
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Views/Cells/BaseJotCell.cs">
     <Files>
       <File FileName="FictionBox/Services.cs" Line="1" Column="1" />
@@ -10,6 +11,8 @@
       <File FileName="FictionBox/App.cs" Line="16" Column="2" />
       <File FileName="FictionBox/ViewModels/DeckViewModel.cs" Line="23" Column="5" />
 =======
+=======
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
   <MonoDevelop.Ide.Workbench ActiveDocument="FictionBox/TemplateParser/TemplateParserFactory.cs">
     <Files>
       <File FileName="FictionBox/Services.cs" Line="1" Column="1" />
@@ -18,6 +21,9 @@
       <File FileName="FictionBox/Constants.cs" Line="10" Column="64" />
       <File FileName="FictionBox/App.cs" Line="13" Column="29" />
       <File FileName="FictionBox/ViewModels/DeckViewModel.cs" Line="16" Column="4" />
+<<<<<<< HEAD
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
+=======
 >>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
       <File FileName="iOS/AppDelegate.cs" Line="26" Column="46" />
       <File FileName="iOS/Setup.cs" Line="20" Column="2" />
@@ -26,6 +32,7 @@
       <File FileName="iOS/ViewController.cs" Line="27" Column="5" />
       <File FileName="iOS/packages.config" Line="1" Column="1" />
       <File FileName="FictionBox/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <File FileName="iOS/Views/DeckView.cs" Line="17" Column="5" />
       <File FileName="iOS/DebigTrace.cs" Line="30" Column="3" />
@@ -47,6 +54,8 @@
       <File FileName="iOS/Views/BaseDeckTableView.cs" Line="35" Column="38" />
       <File FileName="iOS/Views/Cells/BaseJotCell.cs" Line="98" Column="5" />
 =======
+=======
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
       <File FileName="iOS/Views/DeckView.cs" Line="8" Column="1" />
       <File FileName="iOS/DebigTrace.cs" Line="30" Column="3" />
       <File FileName="FictionBox/Resources/Decks/setting_deck.json" Line="49" Column="8" />
@@ -64,6 +73,9 @@
       <File FileName="FictionBox/Json/JsonTemplate1.cs" Line="22" Column="17" />
       <File FileName="FictionBox/TemplateParser/Template1ParserFactory.cs" Line="1" Column="1" />
       <File FileName="FictionBox/TemplateParser/TemplateParserFactory.cs" Line="1" Column="1" />
+<<<<<<< HEAD
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
+=======
 >>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
     </Files>
   </MonoDevelop.Ide.Workbench>
