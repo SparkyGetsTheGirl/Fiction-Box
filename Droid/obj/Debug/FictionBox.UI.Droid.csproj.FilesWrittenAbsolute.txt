@@ -1,0 +1,17 @@
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/bin/Debug/FictionBox.Droid.dll.mdb
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/bin/Debug/FictionBox.Droid.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/bin/Debug/com.sparkygetsthegirl.fiction_box.apk
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/android/bin/com.sparkygetsthegirl.fiction_box.apk
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/res/layout/main.xml
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/res/values/strings.xml
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/res/mipmap-hdpi/icon.png
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/res/mipmap-mdpi/icon.png
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/res/mipmap-xhdpi/icon.png
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/res/mipmap-xxhdpi/icon.png
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/res/mipmap-xxxhdpi/icon.png
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/R.cs.flag
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/bin/Debug/com.sparkygetsthegirl.fiction_box-Signed.apk
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/uploadflags.txt
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/FictionBox.Droid.dll
+/Users/robertdeskoski-switch/Projects/FictionBox/Droid/obj/Debug/FictionBox.Droid.dll.mdb
