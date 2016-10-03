@@ -16,10 +16,16 @@ namespace FictionBox.Core.Services
 	{
 
 		// Specifically for JSON files from EmbeddedResources. Will need a better way, perhaps via database.
+<<<<<<< HEAD
 		// We should create a factory with common interfaces instead of using the belwo List. One internally contains 
 		// a list, the other contains a DB interface
 		public List<DeckModel> loadDecksFromResources()
 		{
+=======
+		public void loadDecksFromResources()
+		{
+
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
 			List<DeckModel> fictionBoxDecks = new List<DeckModel>();
 
 			foreach (var deckResourceString in Constants.EMBEDDED_RESOURCES_DECK_ARRAY)

@@ -28,7 +28,10 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
+<<<<<<< HEAD
 <MtouchExtraArgs>-gcc_flags  "-force_load /Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework/Reveal"</MtouchExtraArgs>
+=======
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>pdbonly</DebugType>
@@ -116,9 +119,12 @@
     <Reference Include="MvvmCross.iOS.Support">
       <HintPath>..\packages\MvvmCross.iOS.Support.4.3.0\lib\Xamarin.iOS10\MvvmCross.iOS.Support.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Cirrious.FluentLayouts.Touch">
       <HintPath>..\packages\Cirrious.FluentLayout.2.5.0\lib\Xamarin.iOS10\Cirrious.FluentLayouts.Touch.dll</HintPath>
     </Reference>
+=======
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -127,7 +133,10 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Views\" />
+<<<<<<< HEAD
     <Folder Include="Views\Cells\" />
+=======
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -147,8 +156,11 @@
     </Compile>
     <Compile Include="Setup.cs" />
     <Compile Include="Views\DeckView.cs" />
+<<<<<<< HEAD
     <Compile Include="Views\BaseDeckTableView.cs" />
     <Compile Include="Views\Cells\BaseJotCell.cs" />
+=======
+>>>>>>> 5ff3b118b39d99fb9b8044aa9b772842f14f6833
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FictionBox\FictionBox.Core.csproj">
