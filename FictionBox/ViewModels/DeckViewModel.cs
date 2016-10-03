@@ -7,14 +7,17 @@ namespace FictionBox.Core.ViewModels
 	{
 		readonly ICreateDecks _createDecks;
 
+		public List<DeckModel> FictionBoxDecks { get; set; }
+
 		public DeckViewModel(ICreateDecks createDecks)
 		{
 			_createDecks = createDecks;
+			FictionBoxDecks = null;
 		}
 
 		public override void Start()
 		{
-			_createDecks.loadDecksFromResources();
+			FictionBoxDecks = _createDecks.loadDecksFromResources();
 			base.Start();
 		}
 	}

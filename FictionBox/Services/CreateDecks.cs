@@ -14,12 +14,10 @@ namespace FictionBox.Core.Services
 {
 	public class CreateDecks : ICreateDecks
 	{
-		public List<DeckModel> FictionBoxDecks { get; set; }
 
 		// Specifically for JSON files from EmbeddedResources. Will need a better way, perhaps via database.
 		public void loadDecksFromResources()
 		{
-			FictionBoxDecks = new List<DeckModel>();
 
 			List<DeckModel> fictionBoxDecks = new List<DeckModel>();
 
@@ -48,8 +46,10 @@ namespace FictionBox.Core.Services
 
 				System.Diagnostics.Debug.WriteLine(currentDeck);
 
-				FictionBoxDecks.Add(currentDeck);
+				fictionBoxDecks.Add(currentDeck);
 			}
+
+			return fictionBoxDecks;
 		}
 
 		// Need to create FictionBoxDecks to replace the one in this class and add accessor functions. Need to 

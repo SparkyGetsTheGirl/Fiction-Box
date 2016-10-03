@@ -2,6 +2,7 @@
 {
 	public interface ICreateDecks
 	{
-		void loadDecks();
+		void loadDecksFromResources();
+		void loadDecksFromDB();
 	}
 }
