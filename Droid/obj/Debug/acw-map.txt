@@ -1,4 +1,0 @@
-FictionBox.Droid.MainActivity, FictionBox.Droid;md5e5efe6090718fb276b01f2ec349ee030.MainActivity
-FictionBox.Droid.MainActivity, FictionBox.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e5efe6090718fb276b01f2ec349ee030.MainActivity
-FictionBox.Droid.MainActivity;md5e5efe6090718fb276b01f2ec349ee030.MainActivity
-fictionbox.droid.MainActivity;md5e5efe6090718fb276b01f2ec349ee030.MainActivity
