@@ -18,6 +18,7 @@ namespace FictionBox.UI.iOS.Views
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
+			TableView = new UITableView(new CGRect(), UITableViewStyle.Grouped);
 
 			var source = new TableSource(TableView)
 			{
@@ -37,6 +38,44 @@ namespace FictionBox.UI.iOS.Views
 			TableView.Source = source;
 			TableView.ReloadData();
 		}
+
+		// Need to tap this into the current size of the Deck
+		public override System.nint NumberOfSections(UITableView tableView)
+		{
+			return 3;
+		}
+
+		public override System.nint RowsInSection(UITableView tableView, System.nint section)
+		{
+			return 1;
+		}
+
+		public override System.nfloat GetHeightForFooter(UITableView tableView, System.nint section)
+		{
+			return 50.0f;
+		}
+
+		public override UIView GetViewForHeader(UITableView tableView, System.nint section)
+		{
+			var view = new UIView();
+			view.BackgroundColor = UIColor.Clear;
+			return view;
+		}
+
+		/*- (NSInteger)numberOfSectionsInTableView:(UITableView*)tableView{
+		    //array is your db, here we just need how many they are
+		    return [array count];
+		}
+		- (NSInteger)tableView:(UITableView*)tableView numberOfRowsInSection:(NSInteger)section{
+		    return 1;
+		}
+		- (UITableViewCell*)tableView:(UITableView*)tableView cellForRowAtIndexPath:(NSIndexPath*)indexPath{
+		    //place your image to cell
+		}
+		- (float)tableView:(UITableView*)tableView heightForFooterInSection:(NSInteger)section{
+		    //this is the space
+		    return 50;
+		}*/
 
 		public class TableSource : MvxTableViewSource
 		{

@@ -9,8 +9,9 @@ namespace FictionBox.UI.iOS.Styles
 
 	public class EnumDataItem
 	{
-		String _name;
-		int _value;
+		private String _name;
+		private String _className;
+		private int _value;
 
 		public String Name
 		{
@@ -22,6 +23,19 @@ namespace FictionBox.UI.iOS.Styles
 			set
 			{
 				_name = value;
+			}
+		}
+
+		public String ClassName
+		{
+			get
+			{
+				return _className;
+			}
+
+			set
+			{
+				_className = value;
 			}
 		}
 
@@ -42,8 +56,8 @@ namespace FictionBox.UI.iOS.Styles
 		{
 			get
 			{
-				if (_name != null)
-					return Type.GetType(_name);
+				if (_className != null)
+					return Type.GetType(_className);
 				else
 					return null;
 			}

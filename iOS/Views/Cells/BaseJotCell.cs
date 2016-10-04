@@ -9,14 +9,13 @@ using MvvmCross.iOS.Views;
 using MvvmCross.Binding.iOS.Views;
 
 using FictionBox.Core.Models;
+using FictionBox.UI.iOS.Styles;
 
 namespace FictionBox.UI.iOS.Cells
 {
 	[Register("BaseJotCell")]
 	public class BaseJotCell : MvxTableViewCell
 	{
-		//private const string BindingText = "Title Title;Subtitle Subtitle; Property Property; OptionList OptionList";
-
 		public BaseJotCell() : base()
 		{
 			CreateLayout();
@@ -35,16 +34,31 @@ namespace FictionBox.UI.iOS.Cells
 			set { title.Text = value; }
 		}
 
+		public UILabel TitleLabel
+		{
+			get { return title; }
+		}
+
 		public string Subtitle
 		{
 			get { return subtitle.Text; }
 			set { subtitle.Text = value; }
 		}
 
+		public UILabel SubtitleLabel
+		{
+			get { return subtitle; }
+		}
+
 		public string Property
 		{
 			get { return property.Text; }
 			set { property.Text = value; }
+		}
+
+		public UILabel PropertyLabel
+		{
+			get { return property; }
 		}
 
 		/*public string OptionList
@@ -82,26 +96,8 @@ namespace FictionBox.UI.iOS.Cells
 			//optionList = new UILabel();
 
 			ContentView.AddSubviews(title, subtitle, property/*, optionList*/);
-			AddConstraints();
-		}
 
-		private void AddConstraints()
-		{
-			ContentView.AddConstraints(
-				
-				title.AtTopOf(ContentView, 10.0f),
-				title.AtRightOf(ContentView, 10.0f),
-				title.AtLeftOf(ContentView, 10.0f),
-
-				subtitle.Below(title, 10.0f),
-				subtitle.AtRightOf(ContentView, 10.0f),
-				subtitle.AtLeftOf(ContentView, 10.0f),
-
-				property.Below(subtitle, 10.0f),
-				property.AtRightOf(ContentView, 10.0f),
-				property.AtLeftOf(ContentView, 10.0f),
-				property.AtBottomOf(ContentView, 10.0f)
-			);
+			CellStyleFactory.createCellStyle(CellStyleEnum.DECK_VIEW_V1).attachCellStyleConstraint(this);
 		}
 
 		private void InitializeBindings()

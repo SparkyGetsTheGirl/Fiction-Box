@@ -12,27 +12,34 @@ namespace FictionBox.UI.iOS.Styles
 		public TableStyleDeckView_V1()
 		{
 			GeneratedTableStyleEnum = TableStyleEnum.DECK_VIEW_V1;
+			EnumValue = (int)TableStyleEnum.DECK_VIEW_V1;
+			StyleDict = StyleConstants.constantDictionary[EnumValue];
+			Init();
+		}
+
+		public void Init()
+		{
 			generateTableBackground();
 			generateTableSelectedBackground();
 		}
 
-		public void generateTableStyle(UITableView tableview)
+		public override void generateTableStyle(UITableView tableview)
 		{
-			tableview.RowHeight = UITableView.AutomaticDimension;
-			tableview.EstimatedRowHeight = 180.0f;
-			tableview.BackgroundColor = UIColor.Brown;
-			tableview.SetEditing(false, false);
+			tableview.RowHeight = (nfloat)StyleDict["RowHeight"]; 
+			tableview.SeparatorStyle = (UITableViewCellSeparatorStyle)StyleDict["SeparatorStyle"];
+			tableview.EstimatedRowHeight = (float)StyleDict["EstimatedRowHeight"];
 			tableview.BackgroundColor = UIColor.FromPatternImage(TableBackgroundImage);
-
-			tableview.SeparatorStyle = UITableViewCellSeparatorStyle.None;
+			tableview.SetEditing(false, false);
 		}
 
-		public void generateTableBackground()
+		public override void generateTableBackground()
 		{
-			TableBackgroundImage = UIImage.FromFile("visit-twin-peaks-prints.jpg");
+			TableBackgroundImage = UIImage.FromFile(
+				(String)StyleDict["TableBackgroundImageFilename"]
+			);
 		}
 
-		public void generateTableSelectedBackground()
+		public override void generateTableSelectedBackground()
 		{
 		}
 	}

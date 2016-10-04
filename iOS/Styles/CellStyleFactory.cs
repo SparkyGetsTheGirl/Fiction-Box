@@ -29,7 +29,7 @@ namespace FictionBox.UI.iOS.Styles
 				{
 					case CellStyleEnum.DECK_VIEW_V1:
 						cellStyle = new CellStyleDeckView_V1();
-						cellStyleDict.Add(cellStyleEnum, cellStyle);
+						cellStyleDict.Add(cellStyle.GeneratedCellStyleEnum, cellStyle);
 						break;
 				}
 			}

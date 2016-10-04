@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UIKit;
 
 using MvvmCross.Binding.iOS.Views;
@@ -10,6 +11,20 @@ namespace FictionBox.UI.iOS.Styles
 		UIImageView _selectedBackgroundView;
 		UIImage _backgroundImage;
 		TableStyleEnum _generatedTableStyleEnum;
+		int _enumValue;
+		Dictionary<String, object> _styleDictionary;
+
+		public Dictionary<String, object> StyleDict
+		{
+			get
+			{
+				return _styleDictionary;
+			}
+			set
+			{
+				_styleDictionary = value;
+			}
+		}
 
 		public UIImageView TableSelectedBackgroundView
 		{
@@ -47,11 +62,24 @@ namespace FictionBox.UI.iOS.Styles
 			}
 		}
 
+		public int EnumValue
+		{
+			get
+			{
+				return _enumValue;
+			}
+			set
+			{
+				_enumValue = value;
+			}
+		}
+
 		public TableStyle()
 		{
 			GeneratedTableStyleEnum = TableStyleEnum.NONE;
 			TableSelectedBackgroundView = null;
 			TableBackgroundImage = null;
+			StyleDict = null;
 		}
 
 		virtual public void generateTableStyle(UITableView tableview)

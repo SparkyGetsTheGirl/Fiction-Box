@@ -8,6 +8,7 @@ namespace FictionBox.UI.iOS.Styles
 	public interface ICellStyle
 	{
 		void generateCellStyle(MvxTableViewCell cell);
+		void attachCellStyleConstraint(MvxTableViewCell cell);
 		void generateCellSelectedBackground();
 	}
 }
