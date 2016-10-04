@@ -36,7 +36,7 @@
     <OutputPath>bin\iPhone\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution</CodesignKey>
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchFloat32>true</MtouchFloat32>
@@ -46,6 +46,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
@@ -70,7 +71,7 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Robert Deskoski (M75MMUE32Z)</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchFastDev>true</MtouchFastDev>
@@ -83,6 +84,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>a971c2a6-141d-4048-8cfc-a92cc4a50dbc</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -128,6 +130,8 @@
     <Folder Include="Resources\" />
     <Folder Include="Views\" />
     <Folder Include="Views\Cells\" />
+    <Folder Include="Styles\" />
+    <Folder Include="Styles\Assistants\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -149,6 +153,17 @@
     <Compile Include="Views\DeckView.cs" />
     <Compile Include="Views\BaseDeckTableView.cs" />
     <Compile Include="Views\Cells\BaseJotCell.cs" />
+    <Compile Include="Styles\CellStyleFactory.cs" />
+    <Compile Include="Styles\CellStyle.cs" />
+    <Compile Include="Styles\ICellStyle.cs" />
+    <Compile Include="Styles\CellStyleDeckView_V1.cs" />
+    <Compile Include="Styles\TableStyle.cs" />
+    <Compile Include="Styles\TableStyleDeckView_V1.cs" />
+    <Compile Include="Styles\TableStyleFactory.cs" />
+    <Compile Include="Styles\ITableStyle.cs" />
+    <Compile Include="Styles\StyleConstants.cs" />
+    <Compile Include="Styles\Assistants\EnumAssistants.cs" />
+    <Compile Include="Styles\StyleConstantsDefinitions.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FictionBox\FictionBox.Core.csproj">

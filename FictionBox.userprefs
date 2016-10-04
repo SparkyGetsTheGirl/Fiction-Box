@@ -1,43 +1,29 @@
 ﻿<Properties StartupConfiguration="{6D1E08D0-D086-4CFE-A2E1-BB3EDA8AF4AE}|Default">
   <MonoDevelop.Ide.ItemProperties.FictionBox.UI.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FictionBox/Models/BaseCardModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.0.1.8/lib/mono/2.1/Xamarin.iOS.Common.targets">
     <Files>
-      <File FileName="FictionBox/Services.cs" Line="1" Column="1" />
-      <File FileName="FictionBox/Services/ICreateDecks.cs" Line="17" Column="3" />
-      <File FileName="FictionBox/Services/CreateDecks.cs" Line="1" Column="1" />
-      <File FileName="FictionBox/Constants.cs" Line="12" Column="26" />
-      <File FileName="FictionBox/App.cs" Line="16" Column="2" />
-      <File FileName="FictionBox/ViewModels/DeckViewModel.cs" Line="1" Column="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="26" Column="46" />
-      <File FileName="iOS/Setup.cs" Line="20" Column="2" />
-      <File FileName="iOS/Main.cs" Line="15" Column="24" />
-      <File FileName="iOS/ViewController.cs" Line="27" Column="5" />
-      <File FileName="iOS/packages.config" Line="1" Column="1" />
-      <File FileName="FictionBox/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="iOS/Styles/CellStyleFactory.cs" Line="9" Column="59" />
+      <File FileName="iOS/Views/Cells/BaseJotCell.cs" Line="9" Column="1" />
+      <File FileName="iOS/Views/BaseDeckTableView.cs" Line="72" Column="5" />
       <File FileName="iOS/Views/DeckView.cs" Line="1" Column="1" />
-      <File FileName="iOS/DebigTrace.cs" Line="30" Column="3" />
-      <File FileName="FictionBox/Resources/Decks/setting_deck.json" Line="49" Column="8" />
-      <File FileName="FictionBox/Utilities/ResourceLoader.cs" Line="12" Column="16" />
-      <File FileName="FictionBox/Utilities/JsonLoader.cs" Line="7" Column="2" />
-      <File FileName="FictionBox/Resources/Decks/characters_deck.json" Line="49" Column="8" />
-      <File FileName="FictionBox/Models/DeckModel.cs" Line="1" Column="1" />
-      <File FileName="FictionBox/Models/IIotaModel.cs" Line="4" Column="29" />
-      <File FileName="FictionBox/Models/IDeckModel.cs" Line="1" Column="1" />
-      <File FileName="FictionBox/Models/IJotModel.cs" Line="4" Column="28" />
-      <File FileName="FictionBox/Models/IotaModel.cs" Line="6" Column="19" />
-      <File FileName="FictionBox/Models/JotModel.cs" Line="4" Column="33" />
-      <File FileName="FictionBox/Models/BaseCardModel.cs" Line="1" Column="1" />
-      <File FileName="FictionBox/Models/IBaseCardModel.cs" Line="1" Column="1" />
-      <File FileName="FictionBox/Json/JsonTemplate1.cs" Line="22" Column="17" />
-      <File FileName="FictionBox/TemplateParser/Template1ParserFactory.cs" Line="1" Column="1" />
-      <File FileName="FictionBox/TemplateParser/TemplateParserFactory.cs" Line="12" Column="1" />
-      <File FileName="iOS/Views/BaseDeckTableView.cs" Line="38" Column="75" />
-      <File FileName="iOS/Views/Cells/BaseJotCell.cs" Line="91" Column="5" />
-      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="iOS/Styles/CellStyle.cs" Line="39" Column="30" />
+      <File FileName="iOS/Styles/ICellStyle.cs" Line="10" Column="26" />
+      <File FileName="iOS/Styles/CellStyleDeckView_V1.cs" Line="20" Column="9" />
+      <File FileName="iOS/Styles/ITableStyle.cs" Line="10" Column="27" />
+      <File FileName="iOS/Styles/TableStyle.cs" Line="51" Column="4" />
+      <File FileName="iOS/Styles/TableStyleFactory.cs" Line="9" Column="42" />
+      <File FileName="iOS/Styles/TableStyleDeckView_V1.cs" Line="23" Column="14" />
+      <File FileName="iOS/Styles/StyleConstants.cs" Line="61" Column="27" />
+      <File FileName="iOS/Styles/Assistants/EnumAssistants.cs" Line="48" Column="18" />
+      <File FileName="FictionBox/ViewModels/DeckViewModel.cs" Line="1" Column="1" />
+      <File FileName="FictionBox/Constants.cs" Line="1" Column="1" />
+      <File FileName="FictionBox/Services/CreateDecks.cs" Line="1" Column="1" />
+      <File FileName="iOS/Styles/StyleConstantsDefinitions.cs" Line="15" Column="17" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.0.1.8/lib/mono/2.1/Xamarin.iOS.Common.targets" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.ItemProperties.FictionBox.UI.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.FictionBox.UI.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.59e0145cb776df61056a0820c8482fb49c378236" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

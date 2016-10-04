@@ -8,6 +8,7 @@ using MvvmCross.Binding.BindingContext;
 
 using FictionBox.Core.ViewModels;
 using FictionBox.UI.iOS.Cells;
+using FictionBox.UI.iOS.Styles;
 
 namespace FictionBox.UI.iOS.Views
 {
@@ -31,13 +32,7 @@ namespace FictionBox.UI.iOS.Views
 					{source, "ItemsSource FictionBoxDecks[0].Cards"}
 			});
 
-			TableView.RowHeight = UITableView.AutomaticDimension;
-			TableView.EstimatedRowHeight = 180.0f;
-			TableView.BackgroundColor = UIColor.Brown;
-			TableView.SetEditing(false, false);
-			TableView.BackgroundColor = UIColor.FromPatternImage(UIImage.FromFile("visit-twin-peaks-prints.jpg"));
-
-			TableView.SeparatorStyle = UITableViewCellSeparatorStyle.None;
+			TableStyleFactory.createTableStyle(TableStyleEnum.DECK_VIEW_V1).generateTableStyle(TableView);
 
 			TableView.Source = source;
 			TableView.ReloadData();
@@ -45,11 +40,8 @@ namespace FictionBox.UI.iOS.Views
 
 		public class TableSource : MvxTableViewSource
 		{
-			private UIImageView _selectedBackgroundView;
-
 			public TableSource(UITableView tableView): base(tableView)
 			{
-				_selectedBackgroundView = new UIImageView() { BackgroundColor = UIColor.Clear };
 				tableView.RegisterClassForCellReuse(typeof(BaseJotCell), new NSString("BaseJotCell"));
 			}
 
@@ -74,24 +66,8 @@ namespace FictionBox.UI.iOS.Views
 			protected override UITableViewCell GetOrCreateCellFor(UITableView tableView, NSIndexPath indexPath, object item)
 			{
 				var cell = (BaseJotCell)tableView.DequeueReusableCell("BaseJotCell");
-				//cell.SelectionStyle = UITableViewCellSelectionStyle.None;
-				cell.BackgroundColor = UIColor.Clear;
+				CellStyleFactory.createCellStyle(CellStyleEnum.DECK_VIEW_V1).generateCellStyle(cell);
 
-				cell.ContentView.Layer.CornerRadius = 20;
-				cell.ContentView.Layer.BorderWidth = 1;
-				cell.ContentView.Layer.MasksToBounds = true;
-				cell.ContentView.Layer.ShadowColor = UIColor.Clear.CGColor;
-				cell.ContentView.Layer.BackgroundColor = UIColor.White.CGColor;
-
-				if (cell.SelectedBackgroundView == null)
-				{
-					cell.SelectedBackgroundView = this._selectedBackgroundView;
-				}
-				cell.SelectedBackgroundView.Layer.CornerRadius = 20;
-				cell.SelectedBackgroundView.Layer.BorderWidth = 1;
-				cell.SelectedBackgroundView.Layer.MasksToBounds = true;
-				cell.SelectedBackgroundView.Layer.ShadowColor = UIColor.Clear.CGColor;
-				cell.SelectedBackgroundView.Layer.BackgroundColor = UIColor.White.CGColor;
 				return cell;
 			}
 		}
